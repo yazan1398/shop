@@ -13,6 +13,7 @@ const products = [
     { name: "جاز", desc: "ابلوكس افروت يتم الاتفاق علا السعر بديسكورد مش شرط فلوس", img: "Gas_Fruit.webp" },
     { name: "كنترول", desc: "ابلوكس افروت يتم الاتفاق علا السعر بديسكورد مش شرط فلوس", img: "Control_Fruit.webp" },
     { name: "رمبيل", desc: "ابلوكس افروت يتم الاتفاق علا السعر بديسكورد مش شرط فلوس", img: "ف.webp" },
+    { name: "test", desc: "ابلوكس افروت يتم الاتفاق علا السعر بديسكورد مش شرط فلوس", img: "fo.webp" },
 ];
 
 const productsContainer = document.getElementById('productsContainer');
@@ -50,3 +51,4 @@ function showNotif(msg) {
 // عند تحميل الصفحة
 
 updateCartCount();
+
